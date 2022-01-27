@@ -22,12 +22,13 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 #menu {
-    font-size: 110%
     letter-spacing: 4px;
-}
+    font-size: 110%
+    }
 
 #menu, #logo {
     line-height: 75px;
@@ -56,6 +57,11 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
 }
 
 #hero-image {
@@ -77,3 +83,38 @@ h1, h2 {
     }
 }
 
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px
+
+    
+
+    
+}
+
+/* club ethos */
+
+#club-ethos {
+    height: 30px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
